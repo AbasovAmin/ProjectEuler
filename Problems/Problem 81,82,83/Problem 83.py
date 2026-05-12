@@ -13,7 +13,7 @@
 
 import heapq
 
-matrix_file = open('C:\\Users\\PC\\Desktop\\Project Euler\\Problem 81,82,83\\matrix.txt').read()
+matrix_file = open('matrix.txt').read()
 
 matrix = [[int(element) for element in row.split(',')] for row in matrix_file.split('\n') if row]
 
