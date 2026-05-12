@@ -38,7 +38,7 @@ def number_to_roman(num):
         num -= value * count
     return result
 
-roman_file = open('C:\\Users\\PC\\Desktop\\Olympiad\\Python\\Project Euler\\Problem 89\\roman.txt').read()
+roman_file = open('roman.txt').read()
 
 count = 0
 
