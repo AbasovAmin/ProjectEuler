@@ -10,7 +10,7 @@
 
 
 
-words_file = open('C:\\Users\\PC\\Desktop\\Project Euler\\Problem 42\\words.txt').read()
+words_file = open('words.txt').read()
 
 
 set_of_names = {word.strip('"') for word in words_file.split(',')}
