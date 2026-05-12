@@ -16,7 +16,7 @@
 #(right click and 'Save Link/Target As...'), a file containing the encrypted ASCII codes,
 #and the knowledge that the plain text must contain common English words, decrypt the message and find the sum of the ASCII values in the original text.
 
-cipher = [int(symbol) for symbol in open('C:\\Users\\PC\\Desktop\\Project Euler\\Problem 59\\cipher.txt').read().split(',')]
+cipher = [int(symbol) for symbol in open('cipher.txt').read().split(',')]
 
 
 for i in range(97, 123):
