@@ -9,7 +9,7 @@
 #Find the minimal path sum from the left column to the right column in matrix.txt
 #(right click and "Save Link/Target As..."), a 31K text file containing an 80 by 80 matrix.
 
-matrix_file = open('C:\\Users\\PC\\Desktop\\Project Euler\\Problem 81,82,83\\matrix.txt').read()
+matrix_file = open('matrix.txt').read()
 
 matrix = [[int(element) for element in row.split(',')] for row in matrix_file.split('\n') if row]
 
