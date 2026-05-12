@@ -1,4 +1,4 @@
-triangle_file = open('C:\\Users\\PC\\Desktop\\Project Euler\\Problem 67\\triangle.txt')
+triangle_file = open('triangle.txt')
 
 list_of_rows = []
 
