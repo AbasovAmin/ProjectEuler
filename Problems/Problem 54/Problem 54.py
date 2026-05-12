@@ -109,7 +109,7 @@ def compare(hand1, hand2):
                 return False
             
 
-poker_file = open('C:\\Users\\PC\\Desktop\\Project Euler\\Problem 54\\poker.txt').read()
+poker_file = open('poker.txt').read()
 
 games = [
     [game.split()[0:5], game.split()[5:10]]
