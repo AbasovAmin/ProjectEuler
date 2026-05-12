@@ -1,4 +1,4 @@
-name_file = open('C:\\Users\\PC\\Desktop\\Project Euler\\Problem 22\\22_names.txt')
+name_file = open('22_names.txt')
 
 Alphabet = ' ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
