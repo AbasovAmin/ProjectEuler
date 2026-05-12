@@ -20,20 +20,3 @@ while True:
         break
 
     k += 1
-
-
-
-
-#Here is a simpler code that takes way longer than latter code
-
-'''import NumberOfFactors, sys
-
-k = 1
-
-while True:
-    k += 1
-    if NumberOfFactors.numberOfFactors(k*(k+1)//2) >= 500:
-        print(k*(k+1)//2)
-        sys.exit()
-'''
-
