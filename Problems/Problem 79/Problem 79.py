@@ -6,7 +6,7 @@
 
 #Given that the three characters are always asked for in order, analyse the file so as to determine the shortest possible secret passcode of unknown length.
 
-keylog_file = open('C:\\Users\\PC\\Desktop\\Project Euler\\Problem 79\\keylog.txt').read()
+keylog_file = open('keylog.txt').read()
 
 attempts = [attempt for attempt in keylog_file.split('\n') if attempt]
 
