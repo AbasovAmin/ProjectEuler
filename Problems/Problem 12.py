@@ -7,7 +7,6 @@ from NumberOfFactors import numberOfFactors
 k = 1
 
 while True:
-    # Compute divisor count using the coprime trick
     if k % 2 == 0:
         a = numberOfFactors(k // 2)
         b = numberOfFactors(k + 1)
