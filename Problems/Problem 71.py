@@ -24,17 +24,3 @@ for d in range(8, 1_000_001):
         
 
 print(max_frac)
-
-
-#A better one without Fractions
-'''
-best_n = 0
-best_d = 1
-
-for d in range(2, 1_000_001):
-    n = (3*d - 1) // 7  # guaranteed below 3/7
-    if n * best_d > best_n * d:
-        best_n, best_d = n, d
-
-print(best_n, best_d)'''
-
