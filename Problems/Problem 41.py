@@ -7,7 +7,7 @@
 
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#n can not be 10, 9, or 8 digital as the sum of the digits would be divisible by 3. So we will start checking primes from permutations of '1234567'.
+#n can not be 9, or 8 digital as the sum of the digits would be divisible by 3. So we will start checking primes from permutations of '1234567'.
 
 LIMIT = 7654322
 
