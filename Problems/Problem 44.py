@@ -28,35 +28,3 @@ for j in range(10000):
                 D = diff
 
 print(D)
-    
-
-
-#Better Solution
-'''
-import math
-
-def is_pentagonal(x):
-    """Check if x is a pentagonal number using the formula."""
-    n = (1 + math.sqrt(1 + 24*x)) / 6
-    return n == int(n)
-
-# Start with some initial pentagonal numbers
-pent_nums = [n*(3*n - 1)//2 for n in range(1, 3000)]  # 3000 is enough, can increase if needed
-D = float('inf')
-
-for j in range(len(pent_nums)):
-    Pj = pent_nums[j]
-    for k in range(j + 1, len(pent_nums)):
-        Pk = pent_nums[k]
-        diff = Pk - Pj
-        sum_ = Pk + Pj
-
-        if diff >= D:
-            # No need to continue with larger differences
-            break
-
-        if is_pentagonal(sum_) and is_pentagonal(diff):
-            D = diff  # Found a smaller difference
-
-print(D)
-'''
