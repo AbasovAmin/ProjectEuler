@@ -14,18 +14,3 @@ while p * p < limit:
     p += 1
 
 print(sum(i for i in range(limit) if sieve[i]))
-
-
-
-#Another solution that takes longer
-'''import IsPrime
-
-prime_sum = 2
-
-for i in range(3,1999999,2):
-    if IsPrime.isprime(i):
-        prime_sum += i
-
-print(prime_sum)'''
-    
-    
