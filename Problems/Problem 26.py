@@ -22,27 +22,3 @@ for d in range(1,1000):
         the_number = d
 
 print(the_number)
-
-
-#Cleaner solution by ChatGPT
-'''
-maximum = 0
-the_number = 0
-
-for d in range(1, 1000):
-    seen_remainders = {}  # remainder -> position
-    remainder = 1
-    position = 0
-
-    while remainder not in seen_remainders:
-        seen_remainders[remainder] = position
-        remainder = (remainder * 10) % d
-        position += 1
-
-    cycle_length = position - seen_remainders[remainder]
-
-    if cycle_length > maximum:
-        maximum = cycle_length
-        the_number = d
-
-print(the_number)'''
